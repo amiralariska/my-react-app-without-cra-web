@@ -8,6 +8,9 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
+    "ghpagesdeploy": "npm run deploy",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b website -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
